@@ -1,2 +1,2 @@
 # Night-G
-Kursova
+Kursova melnik+gurlenko+rudoy
