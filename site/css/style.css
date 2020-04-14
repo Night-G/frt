@@ -20,16 +20,20 @@
     border: 1px solid slategray;
     border-radius: 15px;
     z-index: 3;
+    background-color: #f5f5f0 ;
 }
 /* временно */
-body{
+/*  body{ 
     background-color: yellow;
 }
+*/
+
 /* стиль формы в окне */
 .form{
     width: 8cm ;
     margin: 0px auto 10px auto; 
     text-align: center;
+    
 }
 /* стиль заполняемых полей */
 .input{
@@ -42,11 +46,13 @@ body{
 .regist{
     padding: 0.2cm 1cm;
     border-radius: 5px;
-    border-color: lightgray
+    border-color: #cccdce ;
+    
 }
 .regist:hover{
-    background-color: gainsboro;
+    border-color: #5c6b70 ;
     cursor: pointer;
+    background-color: #cccdce ;
 }
 /* стиль кнопки закрытия */
 .close{
