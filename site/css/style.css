@@ -1,0 +1,60 @@
+/* временно , стиль кнопки для открытия окна  */
+.Button {
+    background-color:whitesmoke;
+    border: 1px solid silver;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 24px;
+}
+.Button:hover{
+    background-color:gainsboro;
+    border: 1px solid slategray;
+}
+/* стиль окна*/
+#window {
+    display: none;
+    width: 9cm;
+    height: 10cm;
+    margin: 40px auto;
+    background: white;
+    border: 1px solid slategray;
+    border-radius: 15px;
+    z-index: 3;
+}
+/* временно */
+body{
+    background-color: yellow;
+}
+/* стиль формы в окне */
+.form{
+    width: 8cm ;
+    margin: 0px auto 10px auto; 
+    text-align: center;
+}
+/* стиль заполняемых полей */
+.input{
+    margin-bottom: 0.3cm  ;
+    padding: 5px 50px 5px 10px;
+    border-radius: 5px;
+    border-color:lightsteelblue;
+}
+/* стиль кнопки регистрации в форме */
+.regist{
+    padding: 0.2cm 1cm;
+    border-radius: 5px;
+    border-color: lightgray
+}
+.regist:hover{
+    background-color: gainsboro;
+    cursor: pointer;
+}
+/* стиль кнопки закрытия */
+.close{
+    position: absolute ;
+    right: 13.9cm;
+    top: 2.6cm;
+}
+.close:hover{
+    cursor: pointer;
+}
+
