@@ -16,9 +16,8 @@
     width: 9cm;
     height: 10cm;
     margin: 40px auto;
-    background: white;
     border: 1px solid slategray;
-    border-radius: 15px;
+    border-radius: 10px;
     z-index: 3;
     background-color: #f5f5f0 ;
 }
@@ -57,8 +56,7 @@
 /* стиль кнопки закрытия */
 .close{
     position: absolute ;
-    right: 13.9cm;
-    top: 2.6cm;
+    margin: 10px 6px 0px 315px  ;
 }
 .close:hover{
     cursor: pointer;
