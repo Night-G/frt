@@ -8,11 +8,11 @@ $(document).ready(function(){
     });
     // hide кнопку  при ее нажатии  
     $('Button').click(function(){
-        $('Button').hide(100);
+        $('Button').hide(0);
     });
     // show кнопку при нажатии на картинку (еще показываеться при закрытии окна (после нажатия кнопки regist))
     $('img').click(function(){
-        $('Button').show(100);
+        $('Button').show(0);
     });
 
 

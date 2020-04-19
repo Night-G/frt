@@ -10,6 +10,9 @@
     background-color:gainsboro;
     border: 1px solid slategray;
 }
+
+/* !!!!!!! Для коректной работы окна логина нужно добавить "position" для елементов , которые будут "под ним" !!!!!!!*/
+
 /* стиль окна*/
 #window {
     display: none;
@@ -18,12 +21,12 @@
     margin: 40px auto;
     border: 1px solid slategray;
     border-radius: 10px;
-    z-index: 3;
+    z-index: 10;
     background-color: #f5f5f0 ;
     position: relative;
 
 }
-
+/* стиль затемнения  */
 #grey{
     display: none;
     position: fixed;
