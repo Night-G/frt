@@ -25,7 +25,8 @@
     z-index: 10;
     background-color: ghostwhite ;
     position: relative;
-
+    box-shadow: 10px 10px darkslategrey;
+    /* box-shadow: 10px  black; */
 }
 /* стиль затемнения  */
 .grey{
@@ -47,6 +48,12 @@
     text-align: center;
     
 }
+
+.FormFooter{
+    background-color: rebeccapurple;
+    width: auto;
+    height: 15px;
+}
 /* стиль заполняемых полей */
 .input{
     margin-bottom: 15px ;
@@ -56,9 +63,10 @@
 }
 /* стиль кнопки регистрации в форме */
 .regist{
-    padding: 0.2cm 1cm;
+    padding: 10px 30px; 
     border-radius: 5px;
     border-color: #cccdce ;
+    margin-top: 30px;
     
 }
 .regist:hover{

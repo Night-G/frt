@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-
+    
     $('h1').mouseenter(function(){
         $('h1').css('color', '#660066');
     });
